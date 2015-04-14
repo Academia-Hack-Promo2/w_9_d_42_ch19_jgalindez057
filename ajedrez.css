@@ -1,0 +1,57 @@
+#tablero{
+	width: 663px;
+	height: 600px;
+	position: relative;
+	top: 30px;
+	left: 270px;
+	border: 25px ridge #800000;
+	text-align: center;
+}
+
+div{
+	font-size: 50px;
+}
+
+[class*="cuadro"] {
+	background-color:#A52A2A;
+	width:83px;
+	height:75px;
+}
+
+[class*="cuadrob"] {
+	background-color: #FFDEAD;
+}
+
+[id*="fila"] {
+	bottom:0;
+	position:absolute;
+}
+
+
+#fila2{
+	left:83px;
+}
+
+#fila3{ 
+	left:166px;
+}
+
+#fila4{ 
+	left:250px;
+}
+
+#fila5{ 
+	left:334px;
+}
+
+#fila6{ 
+	left:417px;
+}
+
+#fila7{ 
+	left:500px;
+}
+
+#fila8{ 
+	left:580px;
+}
